@@ -15,7 +15,7 @@ for (x1, x2, x3, x4, x5, x6) in permutations:
         continue
     if (x2 != x3+x4) and (x3 != x2+x4) and (x4 != x2+x3):
         continue
-    if (x3 != x4+x5) and (x4 != x3+x4) and (x5 != x3+x4):
+    if (x3 != x4+x5) and (x4 != x3+x5) and (x5 != x3+x4):
         continue
     if (x4 != x5+x6) and (x5 != x4+x6) and (x6 != x4+x5):
         continue
