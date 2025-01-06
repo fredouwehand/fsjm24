@@ -1,8 +1,7 @@
-import math
 import itertools
 
-numbers = [1, 2, 3, 4, 5, 7]
-permutations = itertools.permutations(numbers)
+x1, x2, x3, x4, x5, x6 = 1, 2, 3, 4, 5, 7
+permutations = itertools.permutations([x1, x2, x3, x4, x5, x6])
 
 for (x1, x2, x3, x4, x5, x6) in permutations:
     # Verify condition on ordering
